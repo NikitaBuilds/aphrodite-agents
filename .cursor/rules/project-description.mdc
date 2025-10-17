@@ -1,0 +1,37 @@
+---
+alwaysApply: true
+---
+
+# Workflow Automation Builder
+
+A visual workflow builder for automating email drafting and task management using AI agents with MCP (Model Context Protocol) tool integration.
+
+## Core Purpose
+
+- Build node-based automation workflows using ReactFlow
+- Automate email drafting and response workflows via Gmail
+- Automate Asana taskboard management and task creation
+- Connect AI agents to real-world tools via MCP servers
+- Enable fast prototyping of multi-tool agent workflows
+
+## Key Technologies
+
+- **ReactFlow**: Visual workflow building interface
+- **MCP (Model Context Protocol)**: Connect agents to Gmail, Asana, and other tools
+- **Anthropic Claude**: AI reasoning and agentic tool calling
+- **Supabase**: User authentication and credential storage
+- **Next.js**: Full-stack framework with API routes
+
+## Node Types
+
+- **LLM Node**: Basic AI text generation
+- **MCP Agent Node**: AI agents with tool access (Gmail, Asana, etc.)
+- **Supabase Node**: Database queries and data retrieval
+
+## Use Cases
+
+- Email triage → Asana task creation
+- Draft email responses based on context
+- Automate project status updates
+- Task reminders and notifications
+- Cross-platform workflow automation
